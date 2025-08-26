@@ -1,26 +1,3 @@
-""" 
-OpenCV Invisibility Cloak — Real-time ("Harry Potter Cloak")
-
-Run this in PyCharm. It uses your webcam to make a red/blue/green cloak appear invisible 
-by replacing those pixels with a captured background.
-
-Hotkeys:
-  b : capture background (stand out of frame!)
-  1 : target RED cloak
-  2 : target BLUE cloak
-  3 : target GREEN cloak
-  c : toggle HSV calibration sliders (for tricky lighting/colors)
-  s : save a snapshot to ./frames/frame_<timestamp>.png
-  q : quit
-
-Notes:
-- Make sure the background is still when you press 'b'.
-- Default target color is RED. Use 1/2/3 keys to switch.
-- If your cloak is a different shade, press 'c' and adjust the HSV ranges live.
-
-Dependencies: opencv-python, numpy
-"""
-
 import cv2
 import numpy as np
 import os
